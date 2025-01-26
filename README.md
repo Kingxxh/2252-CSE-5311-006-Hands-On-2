@@ -29,6 +29,18 @@ This project benchmarks the performance of three sorting algorithms: **Insertion
 
 ---
 
+## **Dependencies**
+This project uses JFreeChart for visualizing sorting algorithm performance.
+
+Add the following dependency to your `build.gradle` file:
+
+```gradle
+dependencies {
+    implementation 'org.jfree:jfreechart:1.5.3'
+}
+```
+---
+
 **How to Run**
 1. Clone the repository or copy the source code to your local machine.
 
